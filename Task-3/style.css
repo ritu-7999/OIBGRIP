@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-image:url(x.jpeg);
+    /* background-image: url('img_girl.jpg'); */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;  */
+    
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://images.unsplash.com/photo-1586194483662-d84a7a2deba1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8dGhlcm1vbWV0ZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=900&q=60') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.card{
+    width:50vw;
+    height: 50vh;
+   background-color: rgb(249, 203, 133);
+   box-shadow: 0 4px 8px 0 white;
+   transition: 0.3s;
+}
+.card:hover{
+    box-shadow: 0 8px 16px 0 gray;
+}
+form{
+    display: grid;
+    align-content: center;
+    justify-items: center;
+    gap:14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#btn{
+   
+        border: 0.5px solid #c1bfba;
+        padding: 10px auto 10px;
+        padding: 6px;
+        background-color: #f98329;
+        border-radius: 4px;
+        color:black;
+}
+#temp{
+    text-align: center;
+}

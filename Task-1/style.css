@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+.heading{
+    background-image: url(homepage-pingzhu-hero-bg-opt-v2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.heading-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    height: 20px;
+}
+select{
+    border: none;
+
+}
+.heading h1{
+    font-weight: bolder;
+    /* text-align: center; */
+    font-size: 40px;
+    /* line-height: 10px; */
+}
+.heading h2{
+    /* text-align: center; */
+    color:rgb(32, 32, 58)
+}
+.vpn-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 10px;
+}
+.vpn-btn{
+    border: 0.2rem solid #0f866c;
+    border-radius: 5rem;
+    font-weight: 600;
+    padding: 10px;
+background-color: #0f866c;
+color: white;
+margin: 10px 0 20px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+.main-sec{
+    padding: 70px;
+}
+.left img{
+    height: 72vh;
+    margin-right: 20px;
+}
+.right h1{
+    font-size: 24px;
+}
+.right-con img{
+height: 20px;
+margin-left: 5px;
+margin-bottom: 10px;
+}
+.card-con{
+    display: flex;
+    flex-direction: row;
+
+}
+.card-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
+.up img{
+    max-height: 100px;
+}
+
+
+.low h3{
+    text-align: center;
+}
+.low p{
+    font-size: 10px;
+    text-align: center;
+}
+.footer{
+    background-color: rgb(245, 227, 227);
+}
+.footer-heading{
+    text-align: center;
+    font-weight: 300;
+    margin-top: 20px;
+}
+.one img{
+    height: 300px;
+}
+.foot-main{
+    padding: 20px;
+}
+.footer-compo{
+    display: flex;
+    flex-direction: row;
+    gap:30px
+}
+.detail h3{
+    font-size: 35px;
+    font-weight:bold;
+    
+}
+.detail {
+margin-top: 55px;
+        line-height: 0px !important;
+}
+.sec-img{
+    text-align: center;
+}
